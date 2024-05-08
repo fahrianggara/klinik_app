@@ -1,0 +1,46 @@
+name: fahrianggara_10220009
+description: "Simple klinik aplikasi buatan angga"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts: 
+        - asset: fonts/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Inter-light.ttf
+          weight: 300
+        - asset: fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: fonts/Inter-ExtraBold.ttf
+          weight: 900
+    - family: Schibsted Grotesk
+      fonts:
+      - asset: fonts/SchibstedGrotesk-Regular.ttf
+        weight: 400
+      - asset: fonts/SchibstedGrotesk-Medium.ttf
+        weight: 500
+      - asset: fonts/SchibstedGrotesk-Bold.ttf
+        weight: 700
+      - asset: fonts/SchibstedGrotesk-ExtraBold.ttf
+        weight: 900
+      
+
